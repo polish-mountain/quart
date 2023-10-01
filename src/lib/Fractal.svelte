@@ -237,4 +237,4 @@ return c.z * mix(K.xxx, clamp(p - K.xxx, 0.0, 1.0), c.y);
 	}
 </script>
 
-<div class="h-96 w-96" bind:this={div} />
+<div class="aspect-square grow" bind:this={div} />
